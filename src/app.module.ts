@@ -23,9 +23,8 @@ import { AuthModule } from './auth/auth.module';
       playground: true,
     }),
 
-    UserModule,
-
     AuthModule,
+    UserModule,
   ],
   providers: [AppResolver, AppService],
 })
